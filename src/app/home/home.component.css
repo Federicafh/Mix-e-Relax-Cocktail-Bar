@@ -1,0 +1,13 @@
+body {
+  background-color: #2A2D34;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+}
+.heading-img {
+  width: 100%;
+}
+.item-img {
+  width: 20rem;
+}

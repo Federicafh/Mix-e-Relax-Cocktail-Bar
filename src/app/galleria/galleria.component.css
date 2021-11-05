@@ -1,0 +1,22 @@
+body {
+  background-color: #2A2D34;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.title h1 {
+  margin-bottom: 3rem;
+}
+.container {
+  text-align: center;
+}
+.gallery-img {
+  width: 25rem;
+  height: 25rem;
+  margin: 10px;
+}

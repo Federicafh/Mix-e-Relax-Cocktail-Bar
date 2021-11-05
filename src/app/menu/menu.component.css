@@ -1,0 +1,28 @@
+body {
+  background-color: #2A2D34;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+}
+.title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.title h1 {
+  margin-bottom: 3rem;
+}
+.menu-img {
+  width: 15rem;
+  border: 2px solid #90FFDC;
+}
+.menu-img:hover{
+  background-color: rgba(173, 172, 181, 0.5);
+}
+.btn {
+  background-color: #90FFDC;
+}
+.img-zoom {
+  width: 40rem;
+}

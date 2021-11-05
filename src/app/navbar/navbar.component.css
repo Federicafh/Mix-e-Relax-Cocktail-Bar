@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Balsamiq Sans', cursive;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+}
+.nav-link {
+  margin: 0.5rem;
+}
+a:link {
+  color: #90FFDC;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #90FFDC;
+  text-decoration: underline;
+}
+a:active {
+  color: #90FFDC;
+  text-decoration: underline;
+}

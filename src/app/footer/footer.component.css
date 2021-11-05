@@ -1,0 +1,58 @@
+body {
+  background: #2a2e32;
+}
+.logo-footer {
+  width: 15rem;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+.title-footer {
+  color: #90FFDC;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+.form-control {
+  background: #2A2D34;
+  border-color: #545454;
+}
+.form-control:focus {
+  background: #2A2D34;
+}
+.btn {
+  background-color: #90FFDC;
+}
+footer {
+  background: #2A2D34;
+}
+body, html {
+  height: 100%;
+}
+.bi {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  color: white;
+}
+.bi-instagram {
+  color: #bc2a8d; color: rgb(188, 42, 141);
+}
+.bi-facebook {
+  color: #3b5998; color: rgb(59, 89, 152);
+}
+.bi-whatsapp {
+  color: #FFFFFF; color: rgb(0, 230, 118);
+}
+.bi-telegram {
+  color: #FFFFFF; color: rgb(0, 136, 204);
+}
+.bi-youtube {
+  color: #282828; color: rgb(255, 0, 0);
+}

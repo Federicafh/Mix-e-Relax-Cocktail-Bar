@@ -1,0 +1,41 @@
+<body class="menu-container">
+  <div class="title">
+    <h1>I nostri menù<i class="bi bi-cup-straw"></i></h1>
+    <hr style="color: #90FFDC">
+  </div>
+  <div class="container">
+    <div class="item d-flex justify-content-around">
+      <div class="d-flex flex-md-row flex-column bd-highlight mb-3 ">
+        <div class="p-2 bd-highlight">
+          <h3>I più conosciuti</h3>
+          <img src="../../assets/images/M.Cocktail-Classici.png" class="menu-img" (click)="open(content)">
+          <ng-template #content let-modal>
+            <img src="../../assets/images/M.Cocktail-Classici.png" class="img-zoom img-fluid">
+          </ng-template>
+        </div>
+        <div class="p-2 bd-highlight">
+          <h3>I nostri cocktail</h3>
+          <img src="../../assets/images/M.Cocktail-Colorati.png" alt="" class="menu-img"  (click)="open(content1)">
+          <ng-template #content1 let-modal>
+            <img src="../../assets/images/M.Cocktail-Colorati.png" class="img-zoom img-fluid">
+          </ng-template>
+        </div>
+        <div class="p-2 bd-highlight">
+          <h3>I nostri finger food</h3>
+          <img src="../../assets/images/M.food.png" alt="" class="menu-img" (click)="open(content2)">
+          <ng-template #content2 let-modal>
+            <img src="../../assets/images/M.food.png" class="img-zoom img-fluid">
+          </ng-template>
+        </div>
+        <div class="p-2 bd-highlight">
+          <h3>I nostri amari</h3>
+          <img src="../../assets/images/M.amari.png" alt="" class="menu-img"  (click)="open(content3)">
+          <ng-template #content3 let-modal>
+            <img src="../../assets/images/M.amari.png" class="img-zoom img-fluid">
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<hr style="color: #90FFDC">

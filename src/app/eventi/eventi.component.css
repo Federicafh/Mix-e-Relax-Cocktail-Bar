@@ -1,0 +1,21 @@
+body {
+  background-color: #2A2D34;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.heading-img {
+  width: 100%;
+  margin-top: 1rem;
+}
+.container {
+  color: white;
+}
+.container p {
+  text-align: center;
+  margin: 5rem;
+}
+.eventi-img {
+  width: 100%;
+  margin-top: 1rem;
+}
